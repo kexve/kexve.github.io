@@ -2,6 +2,9 @@
 import os
 import sys
 
+Realpath = 'D:\\Documents\\Blog\\posts\\_postsReal\\'
+path = 'D:\\Documents\\Blog\\_posts\\'
+
 """
 # 得到file_name
 """
@@ -17,7 +20,7 @@ file_name = file_name.replace('.md','')
 # 将@@bp和@@rp和@@pc变为相应的值
 """
 # 整个文件读入
-file = open(file_name+'.md', 'r', encoding='UTF-8') 
+file = open(Realpath+file_name+'.md', 'r', encoding='UTF-8') 
 file_context = file.read()
 file.close()
 
@@ -27,7 +30,7 @@ for i in range(len(str_list)):
     #用 "" 替换此字符串中出现的所有
     file_context=file_context.replace(str_list[i],str_list_real[i])
 
-fo = open("../../_posts/"+file_name + "_completed.md", "w", encoding='UTF-8')
+fo = open(path+file_name + "_completed.md", "w", encoding='UTF-8')
 fo.write(file_context)
 fo.close()
 
@@ -36,7 +39,7 @@ fo.close()
 # 添加details元素
 """
 # 按行读入文件
-file = open("../../_posts/"+file_name+'_completed.md', 'r', encoding='UTF-8') 
+file = open(path+file_name+'_completed.md', 'r', encoding='UTF-8') 
 line = file.readlines()
 line.append("\n")
 file.close()
@@ -101,7 +104,7 @@ for i in range(len(line)):
         line[i] = line[i].rstrip()+'\n'
 
 # 输出到.md文件
-fo = open("../../_posts/"+file_name + "_completed.md", "w", encoding='UTF-8')
+fo = open(path+file_name + "_completed.md", "w", encoding='UTF-8')
 fo.writelines(line)
 fo.close()
 
