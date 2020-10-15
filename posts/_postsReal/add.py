@@ -48,8 +48,8 @@ for i in range(len(line)):
     c = line[i].count('`')
     if (line[i][0:c] != '`'*c):
         temp = 0
-        str_temp = line[i].lstrip()
-        for j in range(0,len(str_temp)):
+        line[i] = line[i].lstrip()
+        for j in range(0,len(line[i])):
             if (str_temp[j] == '`'):
                 temp=temp+1
             else:
@@ -58,8 +58,8 @@ for i in range(len(line)):
     n = line[i].count('#')
     if (line[i][0:n] != '#'*n):
         temp = 0
-        str_temp = line[i].lstrip()
-        for j in range(0,len(str_temp)):
+        line[i] = line[i].lstrip()
+        for j in range(0,len(line[i])):
             if (str_temp[j] == '#'):
                 temp = temp+1
             else:

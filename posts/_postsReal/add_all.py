@@ -6,7 +6,7 @@ path = 'D:\Documents\Blog\posts\_postsReal'
 path_list = os.listdir(path)
 j=0
 for i in range(len(path_list)):
-    if ('.md' not in path_list[j]):
+    if ('.md' not in path_list[j] or '.swp' in path_list[j]):
         path_list.pop(j)
     else:
         j+=1
@@ -58,8 +58,8 @@ for file_name in path_list:
         c = line[i].count('`')
         if (line[i][0:c] != '`'*c):
             temp = 0
-            str_temp = line[i].lstrip()
-            for j in range(0,len(str_temp)):
+            line[i] = line[i].lstrip()
+            for j in range(0,len(line[i])):
                 if (str_temp[j] == '`'):
                     temp=temp+1
                 else:
@@ -68,8 +68,8 @@ for file_name in path_list:
         n = line[i].count('#')
         if (line[i][0:n] != '#'*n):
             temp = 0
-            str_temp = line[i].lstrip()
-            for j in range(0,len(str_temp)):
+            line[i] = line[i].lstrip()
+            for j in range(0,len(line[i])):
                 if (str_temp[j] == '#'):
                     temp = temp+1
                 else:
