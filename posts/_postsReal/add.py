@@ -45,12 +45,12 @@ flag = [0,0,0,0,0,0,0]
 code_block = 0
 str_det = ["@@dt\n","@@ds\n","@@dc\n"]
 for i in range(len(line)):
+    line[i] = line[i].lstrip()
     c = line[i].count('`')
     if (line[i][0:c] != '`'*c):
         temp = 0
-        line[i] = line[i].lstrip()
         for j in range(0,len(line[i])):
-            if (str_temp[j] == '`'):
+            if (line[i][j] == '`'):
                 temp=temp+1
             else:
                 break
@@ -58,9 +58,8 @@ for i in range(len(line)):
     n = line[i].count('#')
     if (line[i][0:n] != '#'*n):
         temp = 0
-        line[i] = line[i].lstrip()
         for j in range(0,len(line[i])):
-            if (str_temp[j] == '#'):
+            if (line[i][j] == '#'):
                 temp = temp+1
             else:
                 break

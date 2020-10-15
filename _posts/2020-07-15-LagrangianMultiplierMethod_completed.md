@@ -40,5 +40,4 @@ h(x)的梯度符号任意选择都行,第三条是保证凸函数
 ## 参考文献
 @@ds
 1. [KKT.pdf](http://www.csc.kth.se/utbildning/kth/kurser/DD3364/Lectures/KKT.pdf)  
-
 @@dc

@@ -64,28 +64,28 @@ https://cdn.jsdelivr.net/combine/url1,url2,url3
 ### 修改内容
 @@ds
 1. 在 _config.yml 文件中添加控制开关:  
-    ```yaml
-    # 对 css 和 js 资源的 cdn 加速配置
-    cdn:
-        jsdelivr:
-            enabled: true
-    ```  
+```yaml
+# 对 css 和 js 资源的 cdn 加速配置
+cdn:
+jsdelivr:
+enabled: true
+```  
 2. 修改 _layouts 里的文件, 用 `assets_base_url` 代表加载静态资源的根路径:  
-    {% raw %}  
-    ```liquid
-    {% assign assets_base_url = site.url %}
-    {% if site.cdn.jsdelivr.enabled %}
-        {% assign assets_base_url = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
-    {% endif %}
-    ```  
-    {% endraw %}  
+{% raw %}  
+```liquid
+{% assign assets_base_url = site.url %}
+{% if site.cdn.jsdelivr.enabled %}
+{% assign assets_base_url = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
+{% endif %}
+```  
+{% endraw %}  
 3. 修改以前直接用 {% raw %}`{{ site.url }}`{% endraw %} 拼接的静态资源引用链接，替换为 {% raw %}`{{ assets_base_url }}`{% endraw %}，比如 _includes/header.html 里：  
-    {% raw %}  
-    ```diff
-    - <link rel="stylesheet" href="{{ site.url }}/assets/css/posts/index.css">
-    + <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/posts/index.css">
-    ```  
-    {% endraw %}  
+{% raw %}  
+```diff
+- <link rel="stylesheet" href="{{ site.url }}/assets/css/posts/index.css">
++ <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/posts/index.css">
+```  
+{% endraw %}  
 @@dc
 @@dt
 ### 刷新 cdn 问题
@@ -100,5 +100,4 @@ https://cdn.jsdelivr.net/combine/url1,url2,url3
 @@ds
 - [使用 jsDelivr 免费加速 GitHub Pages 博客的静态资源](https://mazhuang.org/2020/05/01/cdn-for-github-pages/#先看效果)  
 - [jsDelivr 官网介绍](https://www.jsdelivr.com/features#gh)  
-
 @@dc
