@@ -70,9 +70,11 @@ for i in range(len(line)):
         code_block = (code_block+1)%2
     if (code_block == 0):
         if (n > 0 and flag[n] == 0):
+            line[i] = line[i].lstrip()
             line[i] = str_det[0]+line[i]+str_det[1]
             flag[n] = 1
         elif (n > 0 and flag[n] == 1):
+            line[i] = line[i].lstrip()
             line[i] = str_det[2]*sum(flag[n:5])+str_det[0]+line[i]+str_det[1]
             for j in range(n+1,6):
                 flag[j] = 0
