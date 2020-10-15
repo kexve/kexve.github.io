@@ -32,7 +32,7 @@ for file_name in path_list:
     file.close()
 
     str_list = ["@@rp","@@bp","@@pc"]
-    str_list_real = ["<font color=red>","<font color=blue>","</font>"]
+    str_list_real = ["<strong><font color=red>","<strong><font color=blue>","</font></strong>"]
     for i in range(len(str_list)):
         #用 "" 替换此字符串中出现的所有
         file_context=file_context.replace(str_list[i],str_list_real[i])

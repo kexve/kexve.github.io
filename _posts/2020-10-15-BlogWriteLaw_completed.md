@@ -79,13 +79,13 @@ else:
     file_name = sys.argv[1] # cmd直接传参
 file_name = file_name.replace('.md','')
 """
-# 将<font color=blue>和<font color=red>和</font>变为相应的值
+# 将<strong><font color=blue>和<strong><font color=red>和</font></strong>变为相应的值
 """
 # 整个文件读入
 file = open(file_name+'.md', 'r', encoding='UTF-8') 
 file_context = file.read()
 file.close()
-str_list = ["<font color=red>","<font color=blue>","</font>"]
+str_list = ["<strong><font color=red>","<strong><font color=blue>","</font></strong>"]
 str_list_real = ["<font color=red>","<font color=blue>","</font>"]
 for i in range(len(str_list)):
     #用 "" 替换此字符串中出现的所有

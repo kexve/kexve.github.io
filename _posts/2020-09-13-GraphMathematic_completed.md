@@ -1,7 +1,7 @@
 ---  
 layout: post  
 title: 图论相关基础知识  
-categories: Algorithm  
+categories: 数据结构  
 ---  
 @@dt
 ## 最短路径算法
