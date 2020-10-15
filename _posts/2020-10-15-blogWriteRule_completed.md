@@ -21,7 +21,7 @@ categories: Blog
 ### 标题
 @@ds
 @@dt
-#### 这是标题吗
+ #### 这是标题吗
 @@ds
 这里是内容  
 @@dc
@@ -48,11 +48,11 @@ categories: Blog
 @@dt
 ### 代码区域
 @@ds
-``` txt
+ ``` txt
 这是代码区域吗, 没顶格
 #### 这是标题吗
 这个呢####
-```  
+ ```  
 @@dc
 @@dt
 ### 图片
@@ -73,9 +73,9 @@ import sys
 # 得到file_name
 """
 if(len(sys.argv) == 1):
-file_name = input("input file name (no suffix): ") # 将所有看成字符串
+    file_name = input("input file name (no suffix): ") # 将所有看成字符串
 else:
-file_name = sys.argv[1] # cmd直接传参
+    file_name = sys.argv[1] # cmd直接传参
 file_name = file_name.replace('.md','')
 """
 # 将<font color=blue>和<font color=red>和</font>变为相应的值
@@ -87,7 +87,7 @@ file.close()
 str_list = ["<font color=red>","<font color=blue>","</font>"]
 str_list_real = ["<font color=red>","<font color=blue>","</font>"]
 for i in range(len(str_list)):
-#用 "" 替换此字符串中出现的所有
+    #用 "" 替换此字符串中出现的所有
     file_context=file_context.replace(str_list[i],str_list_real[i])
 fo = open("../../_posts/"+file_name + "_completed.md", "w", encoding='UTF-8')
 fo.write(file_context)
@@ -104,22 +104,22 @@ flag = [0,0,0,0,0,0,0]
 code_block = 0
 str_det = ["@@dt\n","@@ds\n","@@dc\n"]
 for i in range(len(line)):
-c = line[i].count('`')
-if (line[i][0:c] != '`'*c):
+    c = line[i].count('`')
+    if (line[i][0:c] != '`'*c):
         temp = 0
 	str_temp = line[i].lstrip()
         for j in range(0,len(str_temp)):
-if (str_temp[j] == '`'):
+            if (str_temp[j] == '`'):
                 temp=temp+1
             else:
                 break
         c = temp
-n = line[i].count('#')
-if (line[i][0:n-1] != '#'*n):
+    n = line[i].count('#')
+    if (line[i][0:n-1] != '#'*n):
         temp = 0
 	str_temp = line[i].lstrip()
         for j in range(0,str_temp)):
-if (str_temp[j] == '#'):
+            if (str_temp[j] == '#'):
                 temp = temp+1
             else:
                 break
