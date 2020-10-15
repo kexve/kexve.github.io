@@ -48,9 +48,9 @@ for i in range(len(line)):
     c = line[i].count('`')
     if (line[i][0:c] != '`'*c):
         temp = 0
-        line[i] = line[i].lstrip()
-        for j in range(0,len(line[i])):
-            if (line[i][j] == '`'):
+        temp_str = line[i].lstrip()
+        for j in range(0,len(temp_str)):
+            if (temp_str[j] == '`'):
                 temp=temp+1
             else:
                 break
@@ -58,9 +58,9 @@ for i in range(len(line)):
     n = line[i].count('#')
     if (line[i][0:n] != '#'*n):
         temp = 0
-        line[i] = line[i].lstrip()
-        for j in range(0,len(line[i])):
-            if (line[i][j] == '#'):
+        temp_str = line[i].lstrip()
+        for j in range(0,len(temp_str)):
+            if (temp_str[j] == '#'):
                 temp = temp+1
             else:
                 break
