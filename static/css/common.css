@@ -125,6 +125,7 @@ input:-webkit-autofill {
   margin-right: 10px;
   -webkit-user-select: none;
   user-select: none;
+  border-radius: 50%;
   /*transition: transform 500ms ease-in-out;*/
 }
 .header .logo:hover {
