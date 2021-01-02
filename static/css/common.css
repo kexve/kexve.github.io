@@ -116,6 +116,8 @@ input:-webkit-autofill {
   align-items: center;
   justify-content: space-between;
   border-bottom: 3px double #ccc;
+  user-select: none;  
+  -webkit-user-select: none;
 }
 .header .logo {
   width: 40px;
@@ -123,8 +125,6 @@ input:-webkit-autofill {
   /*cursor: pointer;*/
   flex-shrink: 0;
   margin-right: 10px;
-  -webkit-user-select: none;
-  user-select: none;
   border-radius: 50%;
   /*transition: transform 500ms ease-in-out;*/
 }
@@ -147,6 +147,8 @@ input:-webkit-autofill {
   padding: 12px 0;
   border-top: 3px double #ccc;
   color: #999;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .footer a:hover{
   text-decoration: underline;
