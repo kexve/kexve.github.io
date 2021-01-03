@@ -122,15 +122,15 @@ input:-webkit-autofill {
 .header .logo {
   width: 40px;
   height: 40px;
-  /*cursor: pointer;*/
+  cursor: pointer;
   flex-shrink: 0;
   margin-right: 10px;
-  border-radius: 50%;
-  /*transition: transform 500ms ease-in-out;*/
+  /*border-radius: 50%;
+  transition: transform 500ms ease-in-out;*/
 }
-.header .logo:hover {
+/*.header .logo:hover {
   transform: rotate(360deg);
-}
+}*/
 .header .menu {
   margin-right: -9px;
   text-align: right;
