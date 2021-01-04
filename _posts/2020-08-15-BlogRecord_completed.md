@@ -18,6 +18,17 @@ topmost: true
 @@dt
 ## 语法测试
 @@ds
+@@dt
+### 代码块
+@@ds
 `this is highlight`  
+@@dc
+@@dt
+### 代码
+@@ds
+``` python
+print("hello world")
+```  
 
+@@dc
 @@dc

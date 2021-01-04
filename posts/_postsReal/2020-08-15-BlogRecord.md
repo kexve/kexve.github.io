@@ -12,4 +12,10 @@ topmost: true
 - 2020.07.15 博客建立, 使用 [mzlogin Themes](https://github.com/mzlogin/mzlogin.github.io)  
 
 ## 语法测试
+### 代码块
 `this is highlight`
+
+### 代码
+``` python
+print("hello world")
+```
