@@ -49,7 +49,7 @@ for file_name in path_list:
     # 添加details元素
     """
     # 按行读入文件
-    file = open(path+file_name+'_completed.md', 'r', encoding='UTF-8') 
+    file = open(Realpath+file_name+'.md', 'r', encoding='UTF-8') 
     line = file.readlines()
     line.append("\n")
     file.close()
