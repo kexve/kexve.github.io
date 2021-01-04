@@ -19,6 +19,7 @@ file_name = file_name.replace('.md','')
 """
 # 将@@bp和@@rp和@@pc变为相应的值
 """
+"""
 # 整个文件读入
 file = open(Realpath+file_name+'.md', 'r', encoding='UTF-8') 
 file_context = file.read()
@@ -33,7 +34,7 @@ for i in range(len(str_list)):
 fo = open(path+file_name + "_completed.md", "w", encoding='UTF-8')
 fo.write(file_context)
 fo.close()
-
+"""
 
 """
 # 添加details元素
