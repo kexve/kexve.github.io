@@ -52,6 +52,7 @@ summary{
   font-size: 15px;
   font-weight: bold;
   color:#ff1493;
+  background-color: #fff0f5;
 }
 .page-post h4 {
   font-size: 15px;
@@ -75,7 +76,6 @@ summary{
   font-weight: bold;
   padding-right: 6px;
   color: #ff1493;
-  background-color: #fff0f5;
 }
 .page-post .post h4::before{
   content: '##';
