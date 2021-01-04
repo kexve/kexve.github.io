@@ -38,10 +38,11 @@ summary{
   font-size: 17px;
   position: relative;
   color: #32cd32;
+  background-color: #F0F8FF;
 }
 .page-post .post h1::before,
 .page-post .post h2::before {
-  content: '#';
+  content: '>';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
@@ -69,28 +70,28 @@ summary{
 }
 
 .page-post .post h3::before{
-  content: '##';
+  content: '~';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
   color: #ff1493;
 }
 .page-post .post h4::before{
-  content: '###';
+  content: '##';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
   color: #8a2be2;
 }
 .page-post .post h5::before{
-  content: '####';
+  content: '###';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
   color: #6495ed;
 }
 .page-post .post h6::before{
-  content: '#####';
+  content: '####';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
