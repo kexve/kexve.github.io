@@ -121,7 +121,7 @@ input:-webkit-autofill {
 }
 .header .logo {
   /*width: 30px;*/
-  height: 30px;
+  height: 28.8px;
   /*cursor: pointer;*/
   flex-shrink: 0;
   margin-right: 10px;
