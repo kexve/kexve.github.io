@@ -5,11 +5,7 @@ categories: Blog
 topmost: true  
 ---  
 @@dt
-## 2021年
-@@ds
-@@dc
-@@dt
-## 2020年 
+## 博客更新记录
 @@ds
 - 2020.08 改用 [TMaize Themes](https://github.com/TMaize/tmaize-blog)  
 - 2020.08 使用 [lol图床](https://imagelol.com)  
