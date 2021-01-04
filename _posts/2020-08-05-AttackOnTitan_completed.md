@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: 《进击的巨人》观后感  
+title: 谏山创《进击的巨人》观后感  
 categories: Maga  
 ---  
 @@dt
