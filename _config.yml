@@ -32,6 +32,8 @@ compress_html:
 
 # 菜单
 menu:
+  - title: 首页
+    url: /
   - title: 归类
     url: /pages/categories.html
   - title: 搜索
