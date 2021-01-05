@@ -99,7 +99,6 @@ summary{
   color: #000;
 }
 .page-post blockquote {
-  border-left: 3px solid #999;
   background-color: #f7f7f7;
   padding: 9px 9px 9px 15px;
 }
@@ -140,7 +139,7 @@ summary{
 }
 .page-post img {
   display: block;
-  width: 70%;
+  max-width: 70%;
   margin: 0 auto;
   height: auto;
   box-shadow: 0 0 2px #e0e0e0;
