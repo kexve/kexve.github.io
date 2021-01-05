@@ -1,7 +1,7 @@
 ---  
 layout: post  
 title: 拉格朗日乘子法和KKT条件  
-categories: Math&Ana  
+categories: Algorithm  
 ---  
 ## 算法原理
 ### 拉格朗日乘子法
