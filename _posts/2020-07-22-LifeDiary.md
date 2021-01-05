@@ -3,6 +3,7 @@ layout: post
 title: 生活小记    
 categories: Diary    
 ---    
+
 ## 漫画  
 1. [海贼王](https://dogemanga.com/m/%E6%B5%B7%E8%B3%8A%E7%8E%8B/gt9rgUMw)    
 2. [进击的巨人](https://dogemanga.com/m/%E6%B5%B7%E8%B3%8A%E7%8E%8B/gt9rgUMw)    
@@ -13,6 +14,7 @@ categories: Diary
 8. [钻石王牌 ACT2](https://www.ohmanhua.com/15291/) ~~(续动画,看了部分)~~    
 8. [海盗战记](https://www.ohmanhua.com/15008/)    
 9. [GrandBlue](https://www.manhuabei.com/manhua/GrandBlue/)    
+
 ## 番剧  
 1. [海贼王](http://www.imomoe.in/view/189.html) ~~(动画太水,目前弃坑)~~    
 2. [一拳超人 第一季](http://www.imomoe.in/view/1409.html), [第二季](http://www.imomoe.in/view/290.html)    
@@ -39,6 +41,7 @@ categories: Diary
 23. [辉夜大小姐想让我告白](http://www.imomoe.in/view/7496.html), [第二季](http://www.imomoe.in/view/7787.html)    
 24. [碧蓝之海](http://www.imomoe.in/view/7383.html)    
 25. [海盗战记](http://www.imomoe.in/view/7426.html)    
+
 ## TV童年  
 1. [舒克和贝塔](http://www.iqiyi.com/lib/m_200155914.html)    
 2. [葫芦兄弟](https://www.iqiyi.com/a_19rrhbkfv1.html)    
@@ -53,10 +56,12 @@ categories: Diary
 11. [天书奇谈](https://v.youku.com/v_show/id_XMzk5MjA2MjI5Ng==.html)    
 20. [秦时明月 第一部](http://www.imomoe.in/view/5138.html),[第二部](http://www.imomoe.in/view/5246.html),[第三部](http://www.imomoe.in/view/5123.html),[第四部](http://www.imomoe.in/view/4951.html),[第五部](http://www.imomoe.in/view/4046.html),[天行九歌](https://www.bilibili.com/bangumi/media/md5633/) ~~(总觉得动画制作水平越来越好,但剧情没那味了)~~    
 13. [网球王子](http://www.imomoe.in/view/4545.html),[新网球王子](http://www.imomoe.in/view/4955.html)    
+
 ## 音乐  
 ### 相声  
 #### 刘宝瑞  
 1. [官场斗](https://stujiangnaneducn-my.sharepoint.com/personal/1131170322_stu_jiangnan_edu_cn/_layouts/52/download.aspx?share=EWpFBEdDXmZJk0ujo-IrPpwBSrUOJA1mwKzBsRdt4AzRww)    
+
 ## 常用网站  
 ### 漫画  
 1. [漫画呗](https://www.manhuabei.com/)    
@@ -64,12 +69,14 @@ categories: Diary
 3. [漫畫狗](https://dogemanga.com/)    
 4. [百度贴吧](https://tieba.baidu.com/)    
 5. [Animex动漫社](http://www.animetox.com/) ~~漫画单行本下载, 2333~~    
+
 ### 番剧  
 1. [樱花](http://www.imomoe.in/)    
 2. [AGE](https://www.agefans.tv/)    
 3. [奈菲](https://www.nfmovies.com/)    
 4. [P站](http://pilipili.cc/)    
 5. [B站](https://bilibili.com/) ~~感觉B站优化不太好,不是很喜欢~~    
+
 ## 附  
 有时间在完善吧    
 - [x] 漫画    

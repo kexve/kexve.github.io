@@ -13,6 +13,7 @@ categories: Algorithm
 在局部极值点上,f(x)和h(x)相同梯度,μ是两者之间的比例    
 ![](https://s3.jpg.cm/2020/08/15/uLTue.png)
 h(x)的梯度符号任意选择都行,第三条是保证凸函数    
+
 ### KKT条件  
 ![](https://s3.jpg.cm/2020/08/15/uL9Pk.png)
 用来解决约束条件中含有不等式的情况    
@@ -27,5 +28,6 @@ h(x)的梯度符号任意选择都行,第三条是保证凸函数
 ![](https://s3.jpg.cm/2020/08/15/uLO9t.png)
 ![](https://s3.jpg.cm/2020/08/15/uPGQR.png)
 [注]:条件3的使用情形是,λ>0,保证了g(x)=0,即此时在边界条件上取得极值    
+
 ## 参考文献  
 1. [KKT.pdf](http://www.csc.kth.se/utbildning/kth/kurser/DD3364/Lectures/KKT.pdf)    
