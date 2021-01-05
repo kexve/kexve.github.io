@@ -16,8 +16,8 @@ html {
   font-family: Consolas, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 body {
-  max-width: 768px;
-  padding: 0 14px;
+  max-width: 1024px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 * {

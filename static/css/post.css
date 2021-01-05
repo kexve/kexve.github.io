@@ -11,7 +11,7 @@ summary{
   user-select: none;
 }
 .page-post {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2;
   word-break: break-all;
 }
@@ -82,14 +82,14 @@ summary{
   top: 0;
   font-weight: bold;
   padding-right: 6px;
-  color: #8a2be2;
+  color: #6495ed;
 }
 .page-post .post h5::before{
   content: '###';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
-  color: #6495ed;
+  color: #8a2be2;
 }
 .page-post .post h6::before{
   content: '####';
