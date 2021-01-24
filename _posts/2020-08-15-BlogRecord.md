@@ -18,4 +18,12 @@ extMath: true
 ### 代码  
 ``` python  
 print("hello world")  
-``` 
+```
+
+## 数学公式
+$$ 
+\begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+$$ 
