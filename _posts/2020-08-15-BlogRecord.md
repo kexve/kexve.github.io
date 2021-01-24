@@ -2,7 +2,8 @@
 layout: post    
 title: 博客日志及语法    
 categories: Blog    
-topmost: true    
+topmost: true   
+extMath: true 
 ---   
   
 ## 博客更新记录  
