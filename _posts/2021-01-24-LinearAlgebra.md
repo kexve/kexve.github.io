@@ -22,6 +22,6 @@ $$
 1. $$
 \begin{pmatrix} 2 & 5 \\ 1 & 3 \end{pmatrix} * \begin{pmatrix} 1\\2 \end{pmatrix} = 1 * \begin{pmatrix} 2\\1 \end{pmatrix} + 2 * \begin{pmatrix} 5\\3 \end{pmatrix} = \begin{pmatrix} 12\\9 \end{pmatrix}
 $$  
-2. $$
+2. $
 \begin{pmatrix} 1 & 0 & 0 \end{pmatrix} * \begin{pmatrix} 1& 2& 1\\3& 8 &1\\ 0 & 4 &1 \end{pmatrix} = 1* \begin{pmatrix} 1 & 2 & 1 \end{pmatrix} + 0 * \begin{pmatrix} 3 & 8 & 1 \end{pmatrix} + 0 * \begin{pmatrix} 0 & 4 & 1 \end{pmatrix}
-$$
+$
