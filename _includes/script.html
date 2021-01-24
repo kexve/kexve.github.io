@@ -9,8 +9,6 @@ $(document).ready(function() {
     $('#my_toc').toc();
 });
 </script>
-{%- if page.layout == "post" -%}
-{%- if site.extMath || post.extMath -%}
+{%- if page.layout == "post" or post.extMath == true -%}
 {% include ext-mathjax.html %}
-{% endif %}
 {% endif %}
