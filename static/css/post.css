@@ -139,7 +139,7 @@ summary{
 }
 .page-post img {
   display: block;
-  max-width: 70%;
+  max-width: 100%;
   margin: 0 auto;
   height: auto;
   box-shadow: 0 0 2px #e0e0e0;
