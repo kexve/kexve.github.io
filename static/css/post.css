@@ -152,6 +152,10 @@ summary{
   margin: 0 4px;
   line-height: 1;
 }
+.img_des{
+  text_align: center;
+  color: #999999;
+}
 .page-post code {
   background-color: yellow;
   word-break: break-all;
