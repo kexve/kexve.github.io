@@ -20,10 +20,5 @@ extMath: true
 print("hello world")  
 ```
 
-## 数学公式
-$$ 
-\begin{pmatrix}
-a & b \\
-c & d
-\end{pmatrix}
-$$ 
+## 图片测试
+{% include image.html url="https://n1.i5h5.com/2021/01/25/Q4GG.jpg" description="My cat, Robert Downey Jr." %}
