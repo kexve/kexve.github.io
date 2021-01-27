@@ -38,19 +38,19 @@ ol,
 li,
 blockquote {
   padding: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
+  margin: 0;
 }
 a {
   color: inherit;
   text-decoration: none;
 }
 figure{
-  display: block;
-  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   padding: 0;
+  display: block;
 }
 input,
 select,
