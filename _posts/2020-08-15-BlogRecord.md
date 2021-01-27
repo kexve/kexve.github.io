@@ -21,4 +21,4 @@ print("hello world")
 ```
 
 ## 图片测试
-{% include image.html url="https://n1.i5h5.com/2021/01/25/Q4GG.jpg" description="My cat, Robert Downey Jr." %}
+{% img image.html url="https://n1.i5h5.com/2021/01/25/Q4GG.jpg" des="这是一句图片的文字描述" %}
