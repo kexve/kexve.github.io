@@ -32,13 +32,13 @@ compress_html:
 
 # 菜单
 menu:
-  - title: 首页
+  - title: Home
     url: /
-  - title: 归类
+  - title: Categories
     url: /pages/categories.html
-  - title: 搜索
+  - title: Search
     url: /pages/search.html
-  - title: 关于
+  - title: About
     url: /pages/about.html
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
