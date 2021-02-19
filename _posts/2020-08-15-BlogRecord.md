@@ -22,3 +22,6 @@ print("hello world")
 
 ## 图片测试
 {% include img.html url="https://n1.i5h5.com/2021/01/25/Q4GG.jpg" des="这是一句图片的文字描述" %}
+
+## 图片延迟加载测试
+<img src="https://n1.i5h5.com/2021/01/25/Q4GG.jpg" data-original="https://n1.i5h5.com/2021/01/26/QfMc.jpg">
