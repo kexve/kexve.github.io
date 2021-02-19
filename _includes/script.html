@@ -4,11 +4,10 @@
 <script type="text/javascript" src="{{assets_base_url}}/static/js/search.min.js"></script>
 <script type="text/javascript" src="{{assets_base_url}}/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{assets_base_url}}/static/js/toc.min.js"></script>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="{{assets_base_url}}/static/js/lazyload.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   $('#my_toc').toc();
-  $("img").addClass("lazy");
   $("img.lazy").lazyload();
 });
 </script>
