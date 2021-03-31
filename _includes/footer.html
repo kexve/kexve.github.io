@@ -1,0 +1,12 @@
+{%- assign buildAt = site.time | date: "%Y" -%}
+<footer class="footer">
+<span>{{ site.footerText }}{{ buildAt }}</span>
+  <a href="{{ site.baseurl }}/static/xml/rss.xml">RSS Feeds</a>
+  {%- comment %} 请保留主题来源，么么哒~ {% endcomment %}
+  <span> Theme By </span>
+  <a href="https://github.com/TMaize/tmaize-blog">TMaize</a>
+</footer>
+<div id="to-top">
+  <span></span>
+  <span></span>
+</div>

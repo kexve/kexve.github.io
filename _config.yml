@@ -1,0 +1,45 @@
+encoding: utf-8
+
+# SEO相关信息
+title: Kexve's Blog
+description: Kexve的个人博客
+keywords: Kexve,Blog,Java,Html,JavaScript
+author: Kexve
+footerText: 'Copyright © '
+
+# 这些不要动
+permalink: /posts/:year/:month/:day/:title.html
+kramdown:
+  auto_ids: true
+  input: GFM
+exclude: ['README.md']
+
+# 域名配置
+# baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
+domainUrl: '/'
+baseurl: ''
+repository: kexve/kexve.github.io
+
+#jsDelivr版本
+github_version: 0.16v
+
+# compress
+compress_html:
+  clippings:      all
+  comments:       ["<!--", "-->"]
+  endings:        all
+  startings:      [html, head, body]
+
+# 菜单
+menu:
+  - title: Home
+    url: /
+  - title: Categories
+    url: /pages/categories.html
+  - title: Search
+    url: /pages/search.html
+  - title: About
+    url: /pages/about.html
+
+# 数学公式支持，比较影响加载速度,不需要请设置为false
+extMath: false
