@@ -10,6 +10,9 @@ summary{
   -ms-user-select: none;
   user-select: none;
 }
+summary:focus{
+  outline:none;
+}
 .page-post {
   font-size: 15px;
   line-height: 2;
