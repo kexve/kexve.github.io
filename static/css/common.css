@@ -127,18 +127,12 @@ input:-webkit-autofill {
   user-select: none;  
   -webkit-user-select: none;
 }
-.header .logo {
-  /*width: 30px;*/
-  height: 28.8px;
-  /*cursor: pointer;*/
-  flex-shrink: 0;
-  margin-right: 10px;
-  /*border-radius: 50%;
-  transition: transform 500ms ease-in-out;*/
+.header .home {
+	display: inline-block;
+    font-size: 16px;
+    margin: 4px 9px;
+    white-space: nowrap;
 }
-/*.header .logo:hover {
-  transform: rotate(360deg);
-}*/
 .header .menu {
   margin-right: -9px;
   text-align: right;
