@@ -4,11 +4,9 @@
 <script type="text/javascript" src="{{assets_base_url}}/static/js/search.min.js"></script>
 <script type="text/javascript" src="{{assets_base_url}}/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{assets_base_url}}/static/js/toc.min.js"></script>
-<script type="text/javascript" src="{{assets_base_url}}/static/js/lazyload.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   $('#my_toc').toc();
-  $("img.lazy").lazyload();
 });
 </script>
 {%- if page.layout == "post" and site.extMath -%}
