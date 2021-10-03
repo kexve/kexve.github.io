@@ -1,3 +1,10 @@
+---
+layout: post    
+title: 联邦学习    
+
+categories:  Knowledge   
+---    
+
 ## 联邦学习概念 federated learning  
 
 与joint learning联合学习不同, 它是指将不同来源的数据整合在一起用于*多任务建模训练*的场景中.  
