@@ -1,8 +1,8 @@
 ---
 layout: post 
 title: 商群是什么    
-categories:  Algebra   
-extMath: true
+categories: Algebra   
+extMath: true  
 ---    
 
 ## 子群和正规子群
