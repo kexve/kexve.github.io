@@ -102,7 +102,7 @@ summary:focus{
   color: #000;
 }
 .page-post blockquote {
-  padding: 0 0 0 2em;
+  text-indent: 2em;
 }
 
 .page-post a {
