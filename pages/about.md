@@ -3,7 +3,7 @@ layout: post
 title: 关于我
 ---
 
-> Hello 陌生人，欢迎访问 Kexve's Blog
+Hello 陌生人，欢迎访问 Kexve's Blog
 
 ## 联系我
 

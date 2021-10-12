@@ -102,8 +102,7 @@ summary:focus{
   color: #000;
 }
 .page-post blockquote {
-  background-color: #f7f7f7;
-  padding: 9px 9px 9px 15px;
+  padding: 0 0 0 2em;
 }
 
 .page-post a {
