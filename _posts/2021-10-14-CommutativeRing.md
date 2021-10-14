@@ -2,6 +2,7 @@
 layout: post 
 title: 交换环 
 categories: Algebra 
+extMath: true  
 ---   
 
 ## 环
@@ -34,3 +35,5 @@ categories: Algebra
 3. 交换环$I_m$是整环 iff m是素数
 4. $a, r \in R$, 若存在单位$u \in R$使得$a=ur$, 定义a为r的相伴元
 5. 设$R$是一个交换环,记$U(R)=\{ R中所有单位\}$, $U(R)$是$R$的一个乘法群, 称为$R$的单位群
+
+## 域
