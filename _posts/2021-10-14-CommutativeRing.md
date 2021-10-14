@@ -16,7 +16,7 @@ extMath: true
 ![20211014161034](https://cdn.jsdelivr.net/gh/kexve/img/blogImg20211014161034.png)
 
 ### 几个定义
-1. 乘法含幺: 若$\alpha$有逆, 称$\alpha$为单位(元)unit, 即有$u | 1$, 称$u$为单位元
+1. 乘法含幺: 若$\alpha$有逆, 称$\alpha$为单位(元)unit, 即有$u|1$, 称$u$为单位元
 1. 如果乘法可交换: 交换环
 2. 零因子\零除子: $\alpha \neq 0, \beta \neq 0$, then $\alpha \beta = 0$
 3. 整环: 含幺, 交换环, 无零因子
@@ -37,3 +37,4 @@ extMath: true
 5. 设$R$是一个交换环,记$U(R)=\{ R中所有单位\}$, $U(R)$是$R$的一个乘法群, 称为$R$的单位群
 
 ## 域
+
