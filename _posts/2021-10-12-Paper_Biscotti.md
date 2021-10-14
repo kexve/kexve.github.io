@@ -43,3 +43,7 @@ categories:  PaperRead
 4. 攻击者假设: 假设对手可以控制女巫攻击中的多个节点，但控制的股份不超过总股份的30%。假设对手不能人为地增加他们在系统中的股份，除非提供通过Multi-Krum的有效更新. Biscotti兼容SGD更新的任何其他聚合方法，包括可能处理后门和梯度上升攻击的未来方法。
 
 ## Biscotti设计
+![20211013111646](https://cdn.jsdelivr.net/gh/kexve/img/blogImg20211013111646.png)
+
+### 训练初始化
+Biscotti使用第一块（生成块）的信息初始化训练过程
