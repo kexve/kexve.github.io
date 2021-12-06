@@ -4,6 +4,14 @@ details ::-webkit-details-marker {
 details ::-moz-list-bullet {
   font-size: 0;
 }
+.details{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background: #fff;
+  z-index: 10;
+  border-bottom: 1px solid #ccc;
+}
 summary{
   -webkit-user-select: none;
   -moz-user-select: none;
