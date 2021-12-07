@@ -11,6 +11,15 @@ details ::-moz-list-bullet {
   background: #fff;
   z-index: 10;
   border-bottom: 1px solid #ccc;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+.post_summary{
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 11;
 }
 summary{
   -webkit-user-select: none;
@@ -242,5 +251,8 @@ summary:focus{
   }
   .page-post img {
 	max-width: 100%;
+  }
+  .post_catalog{
+    max-height: 300px;
   }
 }
