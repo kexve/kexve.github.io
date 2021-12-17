@@ -4,13 +4,13 @@ title: Home
 ---
 <div class="page page-index">
   {% for post in site.posts  -%}
-    {% assign  realfirst = '0' %}
+    {% assign  realfirst = 0 %}
     {%- capture post_year %}{{ post.date | date: "%Y" }}{% endcapture -%}
     {%- capture post_previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture -%}
     {%- capture post_next_year %}{{ post.next.date | date: "%Y" }}{% endcapture -%}
     {% if post.categories contains 'post_dailypaper' %}
-    {%- if realfirst == '0' or post_next_year != post_year -%}
-    {% set realfirst = '1' %}
+    {%- if realfirst == 0 or post_next_year != post_year -%}
+    {% assign realfirst = 1 %}
     <div class="list-post">
       <h2 id="{{post_year}}">{{post_year}}</h2>
       <ul>
