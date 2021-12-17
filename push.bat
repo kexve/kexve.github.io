@@ -1,4 +1,5 @@
 @echo off
 git add --all
-git commit -m "auto_commit"
+set /p message=message:
+git commit -m %message%
 git push origin master
