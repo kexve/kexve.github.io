@@ -32,10 +32,8 @@ compress_html:
 
 # 菜单
 menu:
-  - title: 推文
+  - title: 博客
     url: /
-  - title: 日报
-    url: /pages/post_dailypaper.html
   - title: 分类
     url: /pages/categories.html
   - title: 搜索
