@@ -1,3 +1,14 @@
+.page page-index{
+  display:flex;
+}
+.siderbar{
+  width: 30%;
+}
+.list_post{
+  border-top: 3px double #ccc;
+  border-bottom: 3px double #ccc;
+  flex: 1;
+}
 .list-post > h2 {
   font-size: 15px;
   font-weight: bold;
