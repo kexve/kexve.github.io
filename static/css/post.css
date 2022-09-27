@@ -4,15 +4,31 @@ details ::-webkit-details-marker {
 details ::-moz-list-bullet {
   font-size: 0;
 }
+.siderbar{
+  width: 30%;
+}
 .post_catalog{
-  position: sticky;
+  /* position: sticky;
   top: 0px;
   left: 0px;
   background: #fff;
   z-index: 10;
   border-bottom: 1px solid #ccc;
   max-height: 500px;
-  overflow-y: scroll;
+  overflow-y: scroll; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 11;
+  margin-right: 10%;
+  border-top: 3px double #ccc;
+  border-bottom: 3px double #ccc;
+}
+.main_content{
+  border-top: 3px double #ccc;
+  border-bottom: 3px double #ccc;
+  flex: 1;
 }
 .post_summary{
   position: sticky;
@@ -34,6 +50,7 @@ summary:focus{
   font-size: 15px;
   line-height: 2;
   word-break: break-all;
+  display: flex;
 }
 .page-post .title {
   font-size: 18px;
