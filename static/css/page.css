@@ -4,7 +4,7 @@
 .siderbar{
   width: 30%;
 }
-.list_post{
+.list-post{
   border-top: 3px double #ccc;
   border-bottom: 3px double #ccc;
   flex: 1;
