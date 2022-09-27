@@ -21,7 +21,7 @@ baseurl: ''
 repository: kexve/kexve.github.io
 
 #jsDelivr版本
-github_version: 0.34v
+github_version: 0.35v
 
 # compress
 compress_html:
