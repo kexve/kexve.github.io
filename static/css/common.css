@@ -79,9 +79,9 @@ input:-webkit-autofill {
   transition: background-color 2592000s ease-in-out 0s;
 }
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 10px;
   height: 4px;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 ::-webkit-scrollbar-thumb {
   /*border-radius: 2px;*/
