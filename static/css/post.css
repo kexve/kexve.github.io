@@ -6,6 +6,7 @@ details ::-moz-list-bullet {
 }
 .siderbar{
   width: 30%;
+  min-width: 30%;
 }
 .post_catalog{
   /* position: sticky;
@@ -258,7 +259,10 @@ summary:focus{
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
+  .siderbar{
+    display: none;
+  }
   .page-post {
     font-size: 13px;
   }

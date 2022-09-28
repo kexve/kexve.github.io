@@ -1,3 +1,9 @@
+.header{
+  border-bottom: 3px double #ccc;
+}
+.footer{
+  border-top: 3px double #ccc;
+}
 .list-post > h2 {
   font-size: 15px;
   font-weight: bold;
