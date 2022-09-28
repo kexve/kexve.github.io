@@ -25,6 +25,7 @@ details ::-moz-list-bullet {
   max-height: 800px;
   border-top: 3px double #ccc;
   border-bottom: 3px double #ccc;
+  overflow-y: auto;
 }
 .main_content{
   border-top: 3px double #ccc;

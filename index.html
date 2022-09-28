@@ -3,13 +3,6 @@ layout: page
 title: Home
 ---
 <div class="page page-index">
-  <div class="siderbar">
-    <div class="self_intro">
-      Hello, 欢迎访问 Kexve's Blog
-      <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=4ZiUioSZl4ShkJDPgo6M" target="_blank">Email: yukexve@qq.com</a>
-      <a href="https://github.com/kexve" target="_blank">Github: kexve</a>
-    </div>
-  </div>
   {% for post in site.posts  -%}
     {%- capture post_year %}{{ post.date | date: "%Y" }}{% endcapture -%}
     {%- capture post_previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture -%}
