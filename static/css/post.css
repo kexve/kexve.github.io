@@ -6,7 +6,7 @@ details ::-moz-list-bullet {
 }
 .siderbar{
   width: 30%;
-  min-width: 30%;
+  /* min-width: 30%; */
 }
 .post_catalog{
   /* position: sticky;
@@ -32,6 +32,7 @@ details ::-moz-list-bullet {
   border-top: 3px double #ccc;
   border-bottom: 3px double #ccc;
   flex: 1;
+  width: 30%;
 }
 .post_summary{
   position: sticky;
