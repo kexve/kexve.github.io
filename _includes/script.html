@@ -4,24 +4,12 @@
 <script type="text/javascript" src="{{assets_base_url}}/static/js/search.min.js"></script>
 <script type="text/javascript" src="{{assets_base_url}}/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="{{assets_base_url}}/static/js/toc.min.js"></script>
-<script type="text/javascript" src="{{assets_base_url}}/static/js/prism.min.js"></script>
 
 <script type="text/javascript"> 
 $(document).ready(function() {
   $('#my_toc').toc();
 });
 </script>
-
-<!-- line number for code block -->
-<script>
-  var pres = document.getElementsByTagName("pre");
-  for(var i = 0; i < pres.length; i++){
-      var pre = pres[i];
-      if(pre.childNodes[0].nodeName == "CODE"){
-          pre.setAttribute("class","line-numbers");
-      }
-  }
-  </script>
 {%- if page.layout == "post" and page.extMath -%}
 {% include ext-mathjax.html %}
 {% endif %}
