@@ -209,7 +209,7 @@ summary:focus{
 .page-post pre {
   font-size: 0;
   padding: 10px;
-  /* overflow: auto; */
+  overflow: auto;
   /* border-radius: 2px; */
   background-color: #f7f7f7;
   /* max-height: 610px; */
