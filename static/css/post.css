@@ -4,15 +4,35 @@ details ::-webkit-details-marker {
 details ::-moz-list-bullet {
   font-size: 0;
 }
+.siderbar{
+  width: 30%;
+  /* min-width: 30%; */
+}
 .post_catalog{
-  position: sticky;
+  /* position: sticky;
   top: 0px;
   left: 0px;
   background: #fff;
   z-index: 10;
   border-bottom: 1px solid #ccc;
   max-height: 500px;
-  overflow-y: scroll;
+  overflow-y: scroll; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 11;
+  margin-right: 10%;
+  max-height: 800px;
+  border-top: 3px double #ccc;
+  border-bottom: 3px double #ccc;
+  overflow-y: auto;
+}
+.main_content{
+  border-top: 3px double #ccc;
+  border-bottom: 3px double #ccc;
+  flex: 1;
+  width: 30%;
 }
 .post_summary{
   position: sticky;
@@ -34,6 +54,7 @@ summary:focus{
   font-size: 15px;
   line-height: 2;
   word-break: break-all;
+  display: flex;
 }
 .page-post .title {
   font-size: 18px;
@@ -119,7 +140,8 @@ summary:focus{
   color: #000;
 }
 .page-post blockquote {
-  text-indent: 2em;
+  /* text-indent: 2em; */
+  background-color: floralwhite;
 }
 
 .page-post a {
@@ -187,10 +209,10 @@ summary:focus{
 .page-post pre {
   font-size: 0;
   padding: 10px;
-  overflow: auto;
-  border-radius: 2px;
+  /* overflow: auto; */
+  /* border-radius: 2px; */
   background-color: #f7f7f7;
-  max-height: 610px;
+  /* max-height: 610px; */
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
@@ -239,7 +261,10 @@ summary:focus{
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
+  .siderbar{
+    display: none;
+  }
   .page-post {
     font-size: 13px;
   }

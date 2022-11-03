@@ -2,15 +2,19 @@
 layout: default
 ---
 <div class="page page-post">
-  <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
-  {% if page.date %}
-  <div class="subtitle">{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</div>
-  {% endif %}
-  <details class ="post_catalog">
-    <summary class = "post_summary">Jump to...</summary>
-    <div id="my_toc" class="my_toc"></div>
-  </details>
-  <div class="post">
-    {{ content }}
+  <div class="siderbar">
+    <div class="post_catalog">
+      <summary class = "post_summary">Jump to...</summary>
+      <div id="my_toc" class="my_toc"></div>
+    </div>
+  </div>
+  <div class="main_content">
+    <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
+    {% if page.date %}
+    <div class="subtitle">{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</div>
+    {% endif %}
+    <div class="post">
+      {{ content }}
+    </div>
   </div>
 </div>

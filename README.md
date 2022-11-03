@@ -8,6 +8,7 @@ layout: post
 title: 标题
 categories: [分类1, 分类2]
 topmost: true ~~可选~~
+extMath: true ~~可选~~
 ---
 文章内容，Markdown格式
 ```
