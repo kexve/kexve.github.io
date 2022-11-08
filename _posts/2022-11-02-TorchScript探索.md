@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TorchScript探索
-categories: 编译原理，pytorch
+categories: [编译原理，pytorch]
 ---
 
 ## 简介
