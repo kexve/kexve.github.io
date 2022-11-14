@@ -85,7 +85,8 @@ input:-webkit-autofill {
 }
 ::-webkit-scrollbar-thumb {
   /*border-radius: 2px;*/
-  background-color: #999999;
+  /* background-color: #999999; */
+  background-color: rgba(0,0,0,0.1);
 }
 /*::-moz-selection {
   background-color: #4a4a4a;

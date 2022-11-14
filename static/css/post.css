@@ -212,7 +212,7 @@ summary:focus{
   color: #999999;
 }
 .page-post code {
-  background-color: yellow;
+  background-color: gainsboro;
   word-break: break-all;
   padding: 0 4px;
   margin: 0 2px;
@@ -253,7 +253,8 @@ summary:focus{
   border: 1px solid #dddddd;
 }
 .page-post tr {
-  border-bottom: 1px solid #dddddd;
+  /* border-bottom: 1px solid #dddddd; */
+  border-bottom: border: 1px rgba(50,0,0,.05) solid;;
 }
 .page-post th {
   font-weight: bold;
@@ -269,7 +270,8 @@ summary:focus{
 .page-post .table-container {
   overflow: auto;
   margin: 14px 0;
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
+  border: 1px rgba(50,0,0,.05) solid;
 }
 .page-post .table-container table {
   margin: 0;
