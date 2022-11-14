@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "=== push to orgin ... ==="
+echo "=== pushing... ==="
 git add --all
 echo "Message: "
 read message
