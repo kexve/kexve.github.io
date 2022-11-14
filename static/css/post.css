@@ -94,7 +94,7 @@ summary:focus{
   padding-right: 6px;
   color: #32cd32; */
   /*内容显示为：计数器h2counter的值转换为中文数字格式+顿号，格式：一、*/
-  content: counter(h2counter) ".";
+  content: counter(h2counter) ". ";
 }
 .page-post h3 {
   font-size: 15px;
@@ -128,7 +128,7 @@ summary:focus{
   font-weight: bold;
   padding-right: 6px;
   color: #ff1493; */
-  content: counter(h2counter) "." counter(h3counter) ".";
+  content: counter(h2counter) "." counter(h3counter) ". ";
 }
 .page-post .post h4::before{
   /* content: '##';
@@ -136,7 +136,7 @@ summary:focus{
   font-weight: bold;
   padding-right: 6px;
   color: #6495ed; */
-  content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".";
+  content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ". ";
 }
 .page-post .post h5::before{
   content: '###';
@@ -224,12 +224,15 @@ summary:focus{
   padding: 10px;
   overflow: auto;
   /* border-radius: 2px; */
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   /* max-height: 610px; */
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
   margin:5px 0;
+  background-image: linear-gradient(90deg,rgba(50,0,0,.05) 3%,transparent 0),linear-gradient(1turn,rgba(50,0,0,.05) 3%,transparent 0);
+    background-size: 20px 20px;
+    background-position: 50%;
 }
 .page-post pre code {
   background-color: transparent;
