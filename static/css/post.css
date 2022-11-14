@@ -78,29 +78,38 @@ summary:focus{
   font-weight: bold;
   font-size: 17px;
   position: relative;
-  color: #32cd32;
-  background-color: #f0fff0;
+  /* color: #32cd32; */
+  /* background-color: #f0fff0; */
   margin:5px 0;
+  /*重置计数器h3counter的值*/
+  counter-reset: h3counter;
+  /*计数器h2counter的值增加1*/
+  counter-increment: h2counter;
 }
 .page-post .post h1::before,
 .page-post .post h2::before {
-  content: '>';
+  /* content: '>';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
-  color: #32cd32;
+  color: #32cd32; */
+  /*内容显示为：计数器h2counter的值转换为中文数字格式+顿号，格式：一、*/
+  content: counter(h2counter) ".";
 }
 .page-post h3 {
   font-size: 15px;
   font-weight: bold;
-  color:#ff1493;
-  background-color: #fff0f5;
+  /* color:#ff1493; */
+  /* background-color: #fff0f5; */
   margin:5px 0;
+  counter-reset: h4counter;
+  counter-increment: h3counter;
 }
 .page-post h4 {
   font-size: 15px;
   font-weight: bold;
-  color:#6495ed;
+  /* color:#6495ed; */
+  counter-increment: h4counter;
 }
 .page-post h5 {
   font-size: 15px;
@@ -114,18 +123,20 @@ summary:focus{
 }
 
 .page-post .post h3::before{
-  content: '~';
+  /* content: '~';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
-  color: #ff1493;
+  color: #ff1493; */
+  content: counter(h2counter) "." counter(h3counter) ".";
 }
 .page-post .post h4::before{
-  content: '##';
+  /* content: '##';
   top: 0;
   font-weight: bold;
   padding-right: 6px;
-  color: #6495ed;
+  color: #6495ed; */
+  content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".";
 }
 .page-post .post h5::before{
   content: '###';
