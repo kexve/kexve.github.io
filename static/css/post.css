@@ -57,13 +57,13 @@ summary:focus{
   display: flex;
 }
 .page-post .title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: #666666;
   padding-top: 12px;
 }
 .page-post .subtitle {
-  font-size: 12px;
+  font-size: 14px;
   color: #999999;
 }
 .page-post .post > * {
@@ -76,7 +76,7 @@ summary:focus{
 .page-post .post h1,
 .page-post .post h2 {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 20px;
   position: relative;
   /* color: #32cd32; */
   /* background-color: #f0fff0; */
@@ -97,7 +97,7 @@ summary:focus{
   content: counter(h2counter) ". ";
 }
 .page-post h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   /* color:#ff1493; */
   /* background-color: #fff0f5; */
@@ -106,7 +106,7 @@ summary:focus{
   counter-increment: h3counter;
 }
 .page-post h4 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   /* color:#6495ed; */
   counter-increment: h4counter;
@@ -170,7 +170,7 @@ summary:focus{
   margin-left: 16px;
 }
 .page-post .post ol {
-  margin-left: 23px;
+  margin-left: 28px;
 }
 .page-post ul li {
   list-style: disc;
@@ -231,8 +231,8 @@ summary:focus{
   tab-size: 4;
   margin:5px 0;
   background-image: linear-gradient(90deg,rgba(50,0,0,.05) 3%,transparent 0),linear-gradient(1turn,rgba(50,0,0,.05) 3%,transparent 0);
-    background-size: 20px 20px;
-    background-position: 50%;
+  background-size: 20px 20px;
+  background-position: 50%;
 }
 .page-post pre code {
   background-color: transparent;
