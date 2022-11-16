@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TorchScript探索
+title: TorchScript 探索
 categories: [编译原理, pytorch]
 ---
 
@@ -900,7 +900,7 @@ def build_def(ctx, py_def, type_line, def_name, self_name=None, pdt_arg_types=No
 
 IR 的 Method 中内置 GraphExecutor object，创建于第一次执行的时候，负责优化。
 
-``` c++
+```c++
 // pytorch/torch/csrc/jit/api/method.h
 
   GraphExecutor& get_executor() {
@@ -910,7 +910,7 @@ IR 的 Method 中内置 GraphExecutor object，创建于第一次执行的时候
 
 GraphExecutor 的定义在/torch/csrc/jit/runtime/graph_executor.cpp，可见其由 graph 产生，定义了 run 方法执行
 
-``` c++
+```c++
     GraphExecutor::GraphExecutor(
         const std::shared_ptr<Graph>& graph,
         std::string function_name)
@@ -930,7 +930,7 @@ GraphExecutor 的定义在/torch/csrc/jit/runtime/graph_executor.cpp，可见其
         size_t remaining_bailout_depth) {
       return pImpl->getPlanFor(inputs, remaining_bailout_depth);
     }
-    
+
      std::shared_ptr<GraphExecutorImplBase> pImpl;
     .....
 
@@ -940,7 +940,7 @@ GraphExecutor 的定义在/torch/csrc/jit/runtime/graph_executor.cpp，可见其
     const ExecutionPlan& getOrCompile(const Stack& stack) {
           .....
           auto plan = compileSpec(spec);
-    
+
         }
       }
     // # compileSpec 会返回一个plan
@@ -948,14 +948,14 @@ GraphExecutor 的定义在/torch/csrc/jit/runtime/graph_executor.cpp，可见其
         auto opt_graph = graph->copy();
         GRAPH_DUMP("Optimizing the following function:", opt_graph);
         arg_spec_creator_.specializeTypes(*opt_graph, spec);
-    
+
         // Phase 0. Inline functions, then clean up any artifacts that the inliner
         //          left in that may inhibit optimization
          .....
         runRequiredPasses(opt_graph);
         GRAPH_DEBUG(
             "After runRequiredPasses, before ConstantPropagation\n", *opt_graph);
-    
+
         // Phase 2. Propagate detailed information about the spec through the
         //          graph (enabled more specializations in later passes).
         //          Shape propagation sometimes depends on certain arguments being
@@ -971,7 +971,7 @@ GraphExecutor 的定义在/torch/csrc/jit/runtime/graph_executor.cpp，可见其
         PropagateRequiresGrad(opt_graph);
         GRAPH_DEBUG(
             "After PropagateRequiresGrad, before runOptimization\n", *opt_graph);
-    
+
         // Phase 3. Run differentiable optimizations (i.e. simple graph rewrites
         //          that we can still execute using autograd).
         runOptimization(opt_graph);
