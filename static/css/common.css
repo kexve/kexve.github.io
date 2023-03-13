@@ -16,7 +16,8 @@ html {
   font-family: system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
 }
 body {
-  max-width: 1088px;
+  max-width: 50%;
+  min-width: 1088px;
   padding: 0 8px;
   margin: 0 auto;
 }
